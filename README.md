@@ -1,2 +1,2 @@
-# Auto-University-Result-Checker
-Auto University Result Check Using Python With Selenium
+# Auto-University(Tumkur)-Result-Checker
+Auto Tumkur University Result Check Using Python With Selenium
