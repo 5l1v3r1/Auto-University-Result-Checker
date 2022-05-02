@@ -6,7 +6,7 @@ driver = webdriver.Chrome()
 driver.get("http://164.100.133.129:82/tutresult/")
 
 input=driver.find_element_by_xpath('//*[@id="ContentPlaceHolder1_txtReg"]')
-input.send_keys('19B11096')
+input.send_keys('19B11000')
 
 input=driver.find_element_by_xpath('//*[@id="ContentPlaceHolder1_ddlExam"]')
 input.click()
