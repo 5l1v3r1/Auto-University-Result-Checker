@@ -10,7 +10,10 @@ input.send_keys('19B11000')
 
 input=driver.find_element_by_xpath('//*[@id="ContentPlaceHolder1_ddlExam"]')
 input.click()
+
 time.sleep(5)
+
+#select the sem which you want and leave it it will click view button auto
 
 input=driver.find_element_by_xpath('//*[@id="ContentPlaceHolder1_btnview"]')
 input.click()
