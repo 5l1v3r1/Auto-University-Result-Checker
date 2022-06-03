@@ -19,5 +19,5 @@ dropdown.select_by_value("CBBCAD") #i putted 4th sem vlaue put your required > 1
 input=driver.find_element_by_xpath('//*[@id="ContentPlaceHolder1_btnview"]')
 input.click()
 
-time.sleep(3)
+time.sleep(15)
 
