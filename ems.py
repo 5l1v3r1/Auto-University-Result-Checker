@@ -14,7 +14,9 @@ input=driver.find_element_by_css_selector('#ContentPlaceHolder1_ddlExam').click(
 time.sleep(2)
 
 dropdown = Select(driver.find_element_by_id("ContentPlaceHolder1_ddlExam"))
-dropdown.select_by_value("CBBCAD") #i putted 4th sem vlaue put your required > 1st sem-CBBCAA 2nd sem-CBBCAB 3rd sem-CBBCAC 5th sem-CBBCAE 6th sem-CBBCAF
+dropdown.select_by_value("CBBCAD") #i putted 4th sem value put your required > 1st sem-CBBCAA 2nd sem-CBBCAB 3rd sem-CBBCAC 5th sem-CBBCAE 6th sem-CBBCAF
+
+time.sleep(3)
 
 input=driver.find_element_by_xpath('//*[@id="ContentPlaceHolder1_btnview"]')
 input.click()
