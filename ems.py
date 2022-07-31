@@ -21,5 +21,7 @@ time.sleep(3)
 input=driver.find_element_by_xpath('//*[@id="ContentPlaceHolder1_btnview"]')
 input.click()
 
-time.sleep(15)
+time.sleep(10)
+
+driver.close()
 
